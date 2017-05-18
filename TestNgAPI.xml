@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Suite">
+  <parameter name="ExecutionEnvironment" value="local"/>
+  <parameter name="RESTAPIContentType" value="json"/>
+  <parameter name="ApplicationToTest" value="csg"/>
+  <parameter name="gridURL" value="api"/>
+  <parameter name="TestingType" value="api"/>
+  <parameter name="SaucelabsUsername" value="api"/>
+  <parameter name="RetryAttempt" value="0"/>
+  <parameter name="ApplicationEnvironment" value="qa"/>
+  <parameter name="SaucelabsAPIKEY" value="api"/>
+  <listeners>
+    <listener class-name="com.pearson.framework.report.CustomListeners"/>
+  </listeners>
+  <test name="API Test">
+    <classes>
+      <class name="com.pearson.tests.Regression_eText">
+        <methods>
+          <include name="csgSearchContentValidResponsePost"/>
+          <include name="csgSearchContentInvalidResponsePost"/>
+          <include name="cmSearchContentValidResponsePost"/>
+          <include name="cmSearchContentInvalidResponsePost"/>
+          <include name="cmSearchContentInvalidResponseGet"/>
+          <include name="cmSearchContentValidResponseGet"/>
+          <include name="csgSearchContentInvalidResponseGet"/>
+          <include name="csgSearchContentValidResponseGet"/>
+          <include name="Get_Navigation_With_ValidIndexID_and_type_01"/>
+          <include name="Get_Navigation_With_InvalidIndexID_02"/>
+          <include name="CM_Get_Navigation_With_ValidIndexID_and_type_01"/>
+          <include name="CM_Get_Navigation_With_InvalidIndexID_02"/>
+          <include name="Get_Navigation_Without_indexId"/>
+          <include name="CM_Get_Navigation_Without_indexId"/>
+          <include name="CSG_Get_Navigation_With_Invalid_Hits_Start_Index_04"/>
+          <include name="CM_Get_Navigation_With_Invalid_Hits_Start_Index_04"/>
+          <include name="CSG_Get_Regression_eText_Invalid_Scenarios"/>
+          <include name="CM_Get_Regression_eText_Invalid_Scenarios"/>
+          <include name="CM_METADATA_SEARCH_API"/>
+          <include name="CSG_METADATA_SEARCH_API"/>
+          <include name="CM_METADATA_SEARCH_API_with_Invalid_searchText"/>
+          <include name="CSG_METADATA_SEARCH_API_with_Invalid_searchText"/>
+          <include name="CM_METADATA_SEARCH_FILTER_API"/>
+          <include name="CSG_METADATA_SEARCH_FILTER_API"/>
+          <include name="CM_METADATA_SEARCH_FILTER_API_with_Invalid_searchText"/>
+          <include name="CSG_METADATA_SEARCH_FILTER_API_with_Invalid_searchText"/>
+          <include name="CM_Search_Filter"/>
+          <include name="CSG_Search_Filter"/>
+          <include name="cmSearchInvalidException"/>
+          <include name="csgSearchInvalidException"/>
+          <include name="CM_post_Navigation_With_ValidData"/>
+          <include name="csgSearchContentAccentQueryPost"/>
+          <include name="cmSearchContentAccentQueryPost"/>
+          <include name="CSG_Get_Glossary_Content_ValidIndexId_01"/>
+          <include name="CSG_Get_Glossary_Content_ValidIndexId_And_InvalidGlossaryKey_04"/>
+          <include name="CSG_Get_Glossary_Content_ValidIndexId_01_noKeyValue"/>
+          <include name="CSG_Get_Glossary_Content_inValidIndexId"/>
+          <include name="CSG_Get_Glossary_Content_noIndexId"/>
+          <include name="Get_Glossary_Content_ValidIndexId_And_validGlossaryKey_02"/>
+          <include name="CM_Get_Glossary_Content_ValidIndexId_01"/>
+          <include name="CM_Get_Glossary_Content_ValidIndexId_And_InvalidGlossaryKey_04"/>
+          <include name="CM_Get_Glossary_Content_ValidIndexId_01_noKeyValue"/>
+          <include name="CM_Get_Glossary_Content_inValidIndexId"/>
+          <include name="CM_Get_Glossary_Content_noIndexId"/>
+          <include name="Get_multilingual_2_1_Glossary_Content_ValidIndexId_01"/>
+          <include name="Get_multilingual_Glossary_Content_ValidIndexId_And_validGlossaryKey_02"/>
+          <include name="Get_multilingual_2_1_Glossary_Valid_Lang_05"/>
+          <include name="Get_CM_multilingual_2_1_Glossary_Content_ValidIndexId_01"/>
+          <include name="Get_CM_multilingual_Glossary_Content_ValidIndexId_And_validGlossaryKey_02"/>
+          <include name="Get_CM_multilingual_2_1_Glossary_Valid_Lang_05"/>
+        </methods>
+      </class> <!-- com.pearson.tests.Regression_eText -->
+      <class name="com.pearson.tests.Regression_collection">
+        <methods>
+          <include name="normal_and_wildCard_V2Search_POST"/>
+          <include name="normal_and_wildCard_V2Search_GET"/>
+          <include name="get_single_multi_Facet"/>
+          <include name="post_single_multi_Facet"/>
+          <include name="post_single_multi_Facet_Sorting"/>
+          <include name="get_single_multi_Facet_Sorting"/>
+          <include name="get_Single_MultiLevel_Boosting"/>
+          <include name="getValidateSpecialCharacter"/>
+          <include name="autoCompletePost2to8Characters"/>
+          <include name="autoCompletePostnot2to8Characters"/>
+          <include name="escapeCharacterValidationPost"/>
+          <include name="escapeCharacterValidationGet"/>
+          <include name="stopwordsValidationGet"/>
+          <include name="post_normal_Serach"/>
+          <include name="get_normal_Serach"/>
+          <include name="allFieldVerificationPost"/>
+          <include name="allFieldVerificationGet"/>
+          <include name="post_date_Validation"/>
+          <include name="get_date_Validation"/>
+        </methods>
+      </class> <!-- com.pearson.tests.Regression_collection -->
+      <class name="com.pearson.tests.Regression_exchangedisciplinev2">
+        <methods>
+          <include name="post_Single_OR_MultiLevel_Sorting"/>
+          <include name="post_Single_MultiLevel_Boosting"/>
+          <include name="singleSpecificField_ExactPharse_V2Search_POST"/>
+          <include name="singleSpecificField_ExactPharse_V2Search_GET"/>
+          <include name="multiSpecificField_V2Search_POST"/>
+          <include name="multiSpecificField_V2Search_GET"/>
+          <include name="negativeValidation_POST"/>
+          <include name="negativeValidation_POST2"/>
+          <include name="expiredTokenTest_POST"/>
+          <include name="negativeValidation_Get"/>
+          <include name="expiredTokenTest_GET"/>
+          <include name="negativeValidation_Get2"/>
+        </methods>
+      </class> <!-- com.pearson.tests.Regression_exchangedisciplinev2 -->
+      <class name="com.pearson.tests.Regression_exchangeV3">
+        <methods>
+          <include name="post_sort_NegativeValidation"/>
+          <include name="post_product_Offer_Status"/>
+          <include name=""/>
+          <include name="multiSpecificFields_Wildcard_V2SearchMF_POST"/>
+          <include name="multiSpecificFields_Wildcard_V2SearchMF_GET"/>
+          <include name="post_single_multi_Facet_Sorting_withGroupBy"/>
+          <include name="get_date_single_multi_Facet"/>
+          <include name="post_date_single_Multi_Facet"/>
+          <include name="get_product_Offer_Status"/>
+          <include name="stopwordsValidationPost"/>
+          <include name="postValidateSpecialCharacter"/>
+          <include name="get_single_multi_Facet_Sorting_withGroupBy"/>
+          <include name="multiSpecificField_ExactPharse_V2Search_POST"/>
+          <include name="multiSpecificFields_ExactPharse_V2SearchMF_GET"/>
+          <include name="singleSpecific_Post_product_Offer_Status"/>
+          <include name="multiSpecific_Post_product_Offer_Status"/>
+          <include name="multiSpecific_get_product_Offer_Status"/>
+          <include name="singleSpecific_get_product_Offer_Status"/>
+        </methods>
+      </class> <!-- com.pearson.tests.Regression_exchangeV3 -->
+    </classes>
+  </test> <!-- API Test -->
+</suite> <!-- API Suite -->

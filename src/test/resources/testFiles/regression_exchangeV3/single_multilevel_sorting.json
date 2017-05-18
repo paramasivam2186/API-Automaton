@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "count": {
+      "type": "integer"
+    },
+    "requestId": {
+      "type": "string"
+    },
+    "searchResults": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "productId": {
+            "type": "string"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "@context": {
+                "type": "object",
+                "properties": {
+                  "cnt": {
+                    "type": "string"
+                  },
+                  "bf": {
+                    "type": "string"
+                  },
+                  "schema": {
+                    "type": "string"
+                  },
+                  "csgIndexedDate": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "cnt",
+                  "bf",
+                  "schema",
+                  "csgIndexedDate"
+                ]
+              },
+              "@type": {
+                "type": "string"
+              }
+            }
+          },
+          "matchedFields": {
+            "type": "object",
+            "properties": {
+              "schema:images.schema:catalogUrl": {
+                "type": "string"
+              },
+              "schema:images.schema:coverUrl": {
+                "type": "string"
+              },
+              "schema:sourceIsbn.schema:isbnType": {
+                "type": "string"
+              },
+              "cnt:auxiliaryFields.authors.biography": {
+                "type": "string"
+              },
+              "schema:images.schema:thumbnailUrl": {
+                "type": "string"
+              }
+            }
+          },
+          "sort": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "count",
+    "requestId",
+    "searchResults"
+  ]
+}

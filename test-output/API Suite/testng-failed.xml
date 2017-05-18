@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API Suite]">
+  <parameter name="ExecutionEnvironment" value="local"/>
+  <parameter name="RESTAPIContentType" value="json"/>
+  <parameter name="ApplicationToTest" value="csg"/>
+  <parameter name="Testcase_ID" value=""/>
+  <parameter name="gridURL" value="api"/>
+  <parameter name="TestingType" value="api"/>
+  <parameter name="SaucelabsUsername" value="api"/>
+  <parameter name="RetryAttempt" value="0"/>
+  <parameter name="ApplicationEnvironment" value="qa"/>
+  <parameter name="SaucelabsAPIKEY" value="api"/>
+  <parameter name="Testcase_Name" value=""/>
+  <listeners>
+    <listener class-name="com.pearson.framework.report.CustomListeners"/>
+  </listeners>
+  <test name="API Test(failed)">
+    <parameter name="Testcase_ID" value=""/>
+    <parameter name="Testcase_Name" value=""/>
+    <classes>
+      <class name="com.pearson.tests.Regression_exchangedisciplinev2">
+        <methods>
+          <include name="get_single_multi_Facet_Sorting"/>
+          <include name="post_Single_OR_MultiLevel_Sorting"/>
+          <include name="multiSpecificField_V2Search_POST"/>
+          <include name="poststeps"/>
+          <include name="post_Single_MultiLevel_Boosting"/>
+          <include name="setUp"/>
+          <include name="singleSpecificField_ExactPharse_V2Search_POST"/>
+          <include name="write"/>
+          <include name="get_single_multi_Facet"/>
+          <include name="normal_and_wildCard_V2Search_GET"/>
+          <include name="post_single_multi_Facet_Sorting"/>
+          <include name="singleSpecificField_ExactPharse_V2Search_GET"/>
+          <include name="initParentRep"/>
+          <include name="normal_and_wildCard_V2Search_POST"/>
+          <include name="endParentRepo"/>
+          <include name="post_single_multi_Facet"/>
+          <include name="getTestData"/>
+          <include name="get_Single_MultiLevel_Boosting"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- com.pearson.tests.Regression_exchangedisciplinev2 -->
+    </classes>
+  </test> <!-- API Test(failed) -->
+</suite> <!-- Failed suite [API Suite] -->

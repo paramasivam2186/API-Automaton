@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [CSG Regression Testing]]">
+  <parameter name="ExecutionEnvironment" value="local"/>
+  <parameter name="RESTAPIContentType" value="json"/>
+  <parameter name="ApplicationToTest" value="csg"/>
+  <parameter name="gridURL" value=""/>
+  <parameter name="TestingType" value="api"/>
+  <parameter name="SaucelabsUsername" value=""/>
+  <parameter name="RetryAttempt" value="0"/>
+  <parameter name="ApplicationEnvironment" value="qa"/>
+  <parameter name="SaucelabsAPIKEY" value=""/>
+  <listeners>
+    <listener class-name="com.pearson.framework.report.CustomListeners"/>
+  </listeners>
+  <test name="CSG Test Casess(failed)(failed)">
+    <groups>
+      <run>
+        <include name="validCase"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.pearson.tests.TC003_V2SearchTests">
+        <methods>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- com.pearson.tests.TC003_V2SearchTests -->
+      <class name="com.pearson.tests.TC002_GlossarySearchTests">
+        <methods>
+          <include name="get_GlossaryContentWithValidIndexId_01"/>
+          <include name="get_mul_GlossaryContentWithValidIndexIdandGlossaryKey_02"/>
+          <include name="cm_getGlossarySearch_API"/>
+          <include name="cm_get_GlossarySearchWithSpecificKey"/>
+          <include name="get_GlossaryContentWithValidIndexIdAndValidGlossaryKey_02"/>
+          <include name="get_mul_GlossaryContentWithValidIndexId_01"/>
+          <include name="get_mul_GlossaryContentWithValidIndexIdAndvalidGlossaryKey_02"/>
+          <include name="get_mul_GlossaryValidLang_05"/>
+          <include name="get_trd_GlossaryContentWithValidIndexId_07"/>
+        </methods>
+      </class> <!-- com.pearson.tests.TC002_GlossarySearchTests -->
+    </classes>
+  </test> <!-- CSG Test Casess(failed)(failed) -->
+  <test name="CSG Test Cases(failed)(failed)">
+    <groups>
+      <run>
+        <include name="inValidCase"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.pearson.tests.TC003_V2SearchTests">
+        <methods>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- com.pearson.tests.TC003_V2SearchTests -->
+      <class name="com.pearson.tests.TC002_GlossarySearchTests">
+        <methods>
+          <include name="get_mul_GlossaryValidIndexIdAndInvalidGlossaryKey_04"/>
+          <include name="get_mul_GlossaryContentWithInvalidIndexId_03"/>
+          <include name="cm_getGlossarySearchWithNullIndexId"/>
+          <include name="get_GlossaryContentWithInvalidIndexId_03"/>
+          <include name="cm_getGlossarySearchWithInvalidIndexId"/>
+          <include name="get_GlossaryContentWithValidIndexIdAndInvalidGlossaryKey_04"/>
+          <include name="get_mul_GlossaryContentWithInvalidLang_06"/>
+        </methods>
+      </class> <!-- com.pearson.tests.TC002_GlossarySearchTests -->
+    </classes>
+  </test> <!-- CSG Test Cases(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [CSG Regression Testing]] -->

@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objectrepository>
+	<page name="LoginScreen">
+		<object name="UserName">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/username</locatorvalue>
+		</object>
+		<object name="Password">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/password</locatorvalue>
+		</object>
+		<object name="Submit">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/sign_in_button</locatorvalue>
+		</object>
+		<object name="LoginSuccess">
+			<locatortype>name</locatortype>
+			<locatorvalue>Courses</locatorvalue>
+		</object>
+		<object name="LoginError">
+			<locatortype>name</locatortype>
+			<locatorvalue>Username or Password is incorrect. Please try again.</locatorvalue>
+		</object>
+		<object name="LoginNetworkDownErrorMessage">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/message</locatorvalue>
+		</object>
+		<object name="Ok">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/button1</locatorvalue>
+		</object>
+		<object name="UsernameKeypad">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.LinearLayout</locatorvalue>
+		</object>
+		<object name="PasswordKeypad">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.LinearLayout</locatorvalue>
+		</object>
+		<object name="EyeOption">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/password_visibility_toggle</locatorvalue>
+		</object>
+		<object name="AlreadyRegistered">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/btn_signed_in</locatorvalue>
+		</object>
+
+	</page>
+	<page name="CourseScreen">
+		<object name="UserName">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.EditText</locatorvalue>
+		</object>
+		<object name="CoursesHeader">
+			<locatortype>name</locatortype>
+			<locatorvalue>Courses</locatorvalue>
+		</object>
+		<object name="CourseLayout">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/course_list</locatorvalue>
+		</object>
+		<object name="CourseFrame">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/root</locatorvalue>
+		</object>
+		<object name="CourseName">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/course_name</locatorvalue>
+		</object>
+		<object name="AuthorName">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/instructor</locatorvalue>
+		</object>
+		<object name="InstructorInitials">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/txt_view_instructor_intials</locatorvalue>
+		</object>
+		<object name="DownloadCourse">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/download</locatorvalue>
+		</object>
+		<object name="CloseButton">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/cancel_download</locatorvalue>
+		</object>
+		<object name="Assignments">
+			<locatortype>name</locatortype>
+			<locatorvalue>Assignments</locatorvalue>
+		</object>
+		<object name="Performance">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/performance</locatorvalue>
+		</object>
+		<object name="TableOfContents">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/toc</locatorvalue>
+		</object>
+		<object name="NotesAndHighlights">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/notes_and_highlights</locatorvalue>
+		</object>
+		<object name="Search">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/search</locatorvalue>
+		</object>
+		<object name="TextBook">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/toc</locatorvalue>
+		</object>
+		<object name="ClassDetails">
+			<locatortype>name</locatortype>
+			<locatorvalue>Class Details</locatorvalue>
+		</object>
+		<object name="Back">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.ImageButton</locatorvalue>
+		</object>
+		<object name="BackScreenBack">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.ImageButton</locatorvalue>
+		</object>
+		<object name="AssignmentsText">
+			<locatortype>name</locatortype>
+			<locatorvalue>Assignments</locatorvalue>
+		</object>
+		<object name="TextBookText">
+			<locatortype>name</locatortype>
+			<locatorvalue>Table of Contents</locatorvalue>
+		</object>
+		<object name="PerformanceText">
+			<locatortype>name</locatortype>
+			<locatorvalue>Performance</locatorvalue>
+		</object>
+		<object name="NotesText">
+			<locatortype>name</locatortype>
+			<locatorvalue>Notes</locatorvalue>
+		</object>
+		<object name="NotesandHighlightsList">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/contents</locatorvalue>
+		</object>
+		<object name="SavedNotes">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/date</locatorvalue>
+		</object>
+		<object name="NotesDate">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/date</locatorvalue>
+		</object>
+		<object name="NotesDelete">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/action_delete</locatorvalue>
+		</object>
+		<object name="NotesEditbutton">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/action_edit</locatorvalue>
+		</object>
+		<object name="NotesContent">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/note</locatorvalue>
+		</object>
+		<object name="BookMarkComment">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/comment</locatorvalue>
+		</object>
+		<object name="BookmarkCell">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/root</locatorvalue>
+		</object>
+		<object name="BookMarkCountLabel">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/select_count</locatorvalue>
+		</object>
+		<object name="SaveButton">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/action_save_note</locatorvalue>
+		</object>
+		<object name="DeleteNoteButton">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/action_delete_note</locatorvalue>
+		</object>
+		<object name="CancelNoteButton">
+			<locatortype>id</locatortype>
+			<locatorvalue>android.widget.ImageButton</locatorvalue>
+		</object>
+		<object name="AlertCancel">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/button2</locatorvalue>
+		</object>
+		<object name="AlertLeave">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/button1</locatorvalue>
+		</object>
+		<object name="ToolBarTitle">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/toolbar_title</locatorvalue>
+		</object>
+		<object name="Content">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/web_view</locatorvalue>
+		</object>
+		<object name="NextButton">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/next_button</locatorvalue>
+		</object>
+		<object name="ClassDetailsInfo">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/info</locatorvalue>
+		</object>
+		<object name="DeleteCourse">
+			<locatortype>name</locatortype>
+			<locatorvalue>Delete Course</locatorvalue>
+		</object>
+		<object name="DeleteCourseButton">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/btn_delete_course</locatorvalue>
+		</object>
+		<object name="DeleteCourseConfirmationHeader">
+			<locatortype>name</locatortype>
+			<locatorvalue>Delete Course Content?</locatorvalue>
+		</object>
+		<object name="DeleteConfirmationMessage">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/message</locatorvalue>
+		</object>
+		<object name="DeleteButton">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/button1</locatorvalue>
+		</object>
+		<object name="CancelDelete">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/button2</locatorvalue>
+		</object>
+		<object name="DeleteButtonBackScreen">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/btn_delete_course</locatorvalue>
+		</object>
+		<object name="Details">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/title</locatorvalue>
+		</object>
+		<object name="BackCardCourseName">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/course_card_title_txt</locatorvalue>
+		</object>
+		<object name="BackCardAuthorName">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/course_card_educators_txt_value</locatorvalue>
+		</object>
+		<object name="BackCardCourseDuration">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/course_card_course_duration_value</locatorvalue>
+		</object>
+		<object name="Swipe">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/cardList</locatorvalue>
+		</object>
+		<object name="Account">
+			<locatortype>name</locatortype>
+			<locatorvalue>Account</locatorvalue>
+		</object>
+		<object name="Logout">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/logout</locatorvalue>
+		</object>
+		<object name="LogoutButton">
+			<locatortype>name</locatortype>
+			<locatorvalue>Logout</locatorvalue>
+		</object>
+		<object name="CancelButton">
+			<locatortype>name</locatortype>
+			<locatorvalue>Cancel</locatorvalue>
+		</object>
+		<object name="NetworkDownErrorMessage">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/message</locatorvalue>
+		</object>
+		<object name="ErrorDownloadOk">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/button1</locatorvalue>
+		</object>
+		<object name="BadgeCount">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/assignment_badge</locatorvalue>
+		</object>
+	</page>
+	<page name="AccountScreen">
+		<object name="NavigationDrawer">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.ImageButton</locatorvalue>
+		</object>
+		<object name="Account_Username">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/title</locatorvalue>
+		</object>
+		<object name="Account_AccountLink">
+			<locatortype>name</locatortype>
+			<locatorvalue>Account</locatorvalue>
+		</object>
+		<object name="Account_Settings">
+			<locatortype>name</locatortype>
+			<locatorvalue>Settings</locatorvalue>
+		</object>
+		<object name="Account_Courses">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/design_menu_item_text</locatorvalue>
+		</object>
+		<object name="Account_Support">
+			<locatortype>name</locatortype>
+			<locatorvalue>Support</locatorvalue>
+		</object>
+		<object name="Account_TermsOfService">
+			<locatortype>name</locatortype>
+			<locatorvalue>Terms of Service</locatorvalue>
+		</object>
+		<object name="Account_PrivacyPolicy">
+			<locatortype>name</locatortype>
+			<locatorvalue>Privacy Policy</locatorvalue>
+		</object>
+		<object name="Account_Logout">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/logout</locatorvalue>
+		</object>
+		<object name="Account_AppVersion">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/app_info_version</locatorvalue>
+		</object>
+		<object name="Account_CopyrightInfo">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/app_info_copyright</locatorvalue>
+		</object>
+		<object name="Account__CopyrightExtra">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/app_info_copyrightExtra
+			</locatorvalue>
+		</object>
+		<object name="Account_Logout_PopUp">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/message</locatorvalue>
+		</object>
+		<object name="Account_LogoutCancel">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/button2</locatorvalue>
+		</object>
+		<object name="Account_PopUpLogout">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/button1</locatorvalue>
+		</object>
+		<object name="UserName">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/username</locatorvalue>
+		</object>
+		<object name="AccountSuccess">
+			<locatortype>name</locatortype>
+			<locatorvalue>Courses</locatorvalue>
+		</object>
+
+
+	</page>
+
+	<page name="SettingsScreen">
+		<object name="Reminder">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/reminder_title</locatorvalue>
+		</object>
+		<object name="Notifications">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/first_notification</locatorvalue>
+		</object>
+		<object name="Add_Notification">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/add_notification</locatorvalue>
+		</object>
+		<object name="Remove_Notification2">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/remove_second_notification</locatorvalue>
+		</object>
+		<object name="Remove_Notification1">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/remove_first_notification</locatorvalue>
+		</object>
+		<object name="Downloads">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/downloads_title</locatorvalue>
+		</object>
+		<object name="Cellular_Heading">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/cellular_heading</locatorvalue>
+		</object>
+		<object name="Cellular_Option">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/cellular_option</locatorvalue>
+		</object>
+		<object name="ScreenHeader">
+			<locatortype>name</locatortype>
+			<locatorvalue>Settings</locatorvalue>
+		</object>
+		<object name="Navigation_Drawer">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.ImageButton</locatorvalue>
+		</object>
+		<object name="Default_Alert">
+			<locatortype>name</locatortype>
+			<locatorvalue>1 Day Before Due</locatorvalue>
+		</object>
+		<object name="Default_WiFi_Option">
+			<locatortype>name</locatortype>
+			<locatorvalue>OFF</locatorvalue>
+		</object>
+		<object name="WiFi_On">
+			<locatortype>name</locatortype>
+			<locatorvalue>ON</locatorvalue>
+		</object>
+		<object name="Dropdown_Elements">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/text1</locatorvalue>
+		</object>
+		<object name="Dropdown_Layout">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.FrameLayout</locatorvalue>
+		</object>
+		<object name="Dropdown_Element1">
+			<locatortype>name</locatortype>
+			<locatorvalue>1 Day Before Due</locatorvalue>
+		</object>
+		<object name="Dropdown_Element2">
+			<locatortype>name</locatortype>
+			<locatorvalue>2 Days Before Due</locatorvalue>
+		</object>
+		<object name="Popup_OK">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/button1</locatorvalue>
+		</object>
+		<object name="Popup_Cancel">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/button2</locatorvalue>
+		</object>
+	</page>
+	<page name="AssignmentScreen">
+		<object name="AssignmentMonth">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/month</locatorvalue>
+		</object>
+		<object name="AssignmentDate">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/day_of_month</locatorvalue>
+		</object>
+		<object name="AssignmentId">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/title</locatorvalue>
+		</object>
+		<object name="AssignmentRoot">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/root</locatorvalue>
+		</object>
+		<object name="AssignmentStatus">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/assignment_status</locatorvalue>
+		</object>
+		<object name="Back">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.ImageButton</locatorvalue>
+		</object>
+	</page>
+	<page name="Performance Screen">
+		<object name="OverallPercentage">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/score_percentage</locatorvalue>
+		</object>
+		<object name="ScoreRatio">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/score_ratio</locatorvalue>
+		</object>
+		<object name="Points">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/points</locatorvalue>
+		</object>
+		<object name="DueDate">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/due_date</locatorvalue>
+		</object>
+		<object name="ChapterMonth">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/month</locatorvalue>
+		</object>
+		<object name="ChapterDay">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/day_of_month</locatorvalue>
+		</object>
+		<object name="ChapterName">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/title</locatorvalue>
+		</object>
+		<object name="TimeOnTask">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/time_on_task</locatorvalue>
+		</object>
+		<object name="ScorePercentage ">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/score_percentage</locatorvalue>
+		</object>
+
+		<object name="DetailsScreenHeader">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.TextView</locatorvalue>
+		</object>
+		<object name="IndividualPoints">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/points</locatorvalue>
+		</object>
+		<object name="Performance">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/layout_performance</locatorvalue>
+		</object>
+		<object name="Back">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.ImageButton</locatorvalue>
+		</object>
+		<object name="PerformanceScreenHeader">
+			<locatortype>name</locatortype>
+			<locatorvalue>Performance</locatorvalue>
+		</object>
+	</page>
+	<page name="WebScreen">
+		<object name="WebChapter">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/title</locatorvalue>
+		</object>
+		<object name="Text">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.view.View</locatorvalue>
+		</object>
+		<object name="Back">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.ImageButton</locatorvalue>
+		</object>
+		<object name="Green">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/color1</locatorvalue>
+		</object>
+		<object name="Pink">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/color2</locatorvalue>
+		</object>
+		<object name="Yellow">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/color3</locatorvalue>
+		</object>
+		<object name="NotesHighlights">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/note</locatorvalue>
+		</object>
+		<object name="EmbeddedPlay">
+			<locatortype>id</locatortype>
+			<locatorvalue>playBtn</locatorvalue>
+		</object>
+		<object name="Play">
+			<locatortype>name</locatortype>
+			<locatorvalue>? Listen to the Audio</locatorvalue>
+		</object>
+		<object name="Pause_Resume">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/action_minimized</locatorvalue>
+		</object>
+		<object name="ClosePlayer">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/close</locatorvalue>
+		</object>
+		<object name="AddNotes">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/note</locatorvalue>
+		</object>
+		<object name="TypeNotes">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/note</locatorvalue>
+		</object>
+		<object name="SaveNotes">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/action_save_note</locatorvalue>
+		</object>
+		<object name="SeekBar">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/seekBar</locatorvalue>
+		</object>
+	</page>
+	<page name="SearchScreen">
+		<object name="SearchBox">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/keyword</locatorvalue>
+		</object>
+		<object name="SearchTitle">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/title</locatorvalue>
+		</object>
+		<object name="SearchContent">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/content</locatorvalue>
+		</object>
+	</page>
+	<page name="IntroScreen">
+		<object name="Welcome">
+			<locatortype>name</locatortype>
+			<locatorvalue>Welcome!</locatorvalue>
+		</object>
+		<object name="AlreadyRegisteredText">
+			<locatortype>name</locatortype>
+			<locatorvalue>Already registered for a REVEL course?</locatorvalue>
+		</object>
+		<object name="YesButton">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/btn_signed_in</locatorvalue>
+		</object>
+		<object name="NoNotYetButton">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/btn_not_signed_in</locatorvalue>
+		</object>
+		<object name="EnrollText">
+			<locatortype>name</locatortype>
+			<locatorvalue>Enroll</locatorvalue>
+		</object>
+		<object name="FirstscreenTextMessage">
+			<locatortype>name</locatortype>
+			<locatorvalue>Follow the link provided by your instructor to access your REVEL course</locatorvalue>
+		</object>
+
+		<object name="NeedHelpLink">
+			<locatortype>name</locatortype>
+			<locatorvalue>Need help?</locatorvalue>
+		</object>
+		<object name="GoToMyCourseText">
+			<locatortype>name</locatortype>
+			<locatorvalue>Go to My Course</locatorvalue>
+		</object>
+		<object name="SecondscreenTextMessage">
+			<locatortype>name</locatortype>
+			<locatorvalue>Go to My Course</locatorvalue>
+		</object>
+		<object name="SignInToRevel">
+			<locatortype>name</locatortype>
+			<locatorvalue>Sign in to REVEL Mobile app</locatorvalue>
+		</object>
+
+		<object name="ThirdscreenTextMessage">
+			<locatortype>name</locatortype>
+			<locatorvalue>Sign in to REVEL mobile to download your course and get started.</locatorvalue>
+		</object>
+		<object name="GotItBtn">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/btn_signed_in</locatorvalue>
+		</object>
+		<object name="UserName">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/username</locatorvalue>
+		</object>
+	</page>
+	<page name="QuizScreen">
+		<object name="QuizFrame">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.FrameLayout</locatorvalue>
+		</object>
+		<object name="AssignmentsList">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/title</locatorvalue>
+		</object>
+		<object name="ModuleList">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/title</locatorvalue>
+		</object>
+		<object name="AssignmentsButtonText">
+			<locatortype>name</locatortype>
+			<locatorvalue>Assignments</locatorvalue>
+		</object>
+		<object name="AssignmentRoot">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/root</locatorvalue>
+		</object>
+		<object name="ModuleListFrame">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.FrameLayout</locatorvalue>
+		</object>
+		<object name="QuizList">
+			<locatortype>name</locatortype>
+			<locatorvalue>Quiz</locatorvalue>
+		</object>
+		<object name="Quiz">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/title</locatorvalue>
+		</object>
+		<object name="StartQuizButton">
+			<locatortype>name</locatortype>
+			<locatorvalue>Start Quiz</locatorvalue>
+		</object>
+		<object name="QuizBtn">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/btn_start_quiz</locatorvalue>
+		</object>
+		<object name="QuizAudio">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/listen_audio_view</locatorvalue>
+		</object>
+		<object name="PlayBtn">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/play_pause</locatorvalue>
+		</object>
+		<object name="AudioClose">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/close</locatorvalue>
+		</object>
+		<object name="AnswerList">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/answer_txt</locatorvalue>
+		</object>
+		<object name="QuestionCount">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/question_header_txt</locatorvalue>
+		</object>
+		<object name="SubmitButton">
+			<locatortype>name</locatortype>
+			<locatorvalue>Submit Answer</locatorvalue>
+		</object>
+		<object name="NextBtn">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/btn_submit</locatorvalue>
+		</object>
+		<object name="NextQuestion">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/previous_quiz</locatorvalue>
+		</object>
+		<object name="PreviousQuestion">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/previous_quiz</locatorvalue>
+		</object>
+		<object name="TryAgain">
+			<locatortype>name</locatortype>
+			<locatorvalue>Try Again</locatorvalue>
+		</object>
+		<object name="Done">
+			<locatortype>name</locatortype>
+			<locatorvalue>Done</locatorvalue>
+		</object>
+		<object name="ContinueQuizButton">
+			<locatortype>name</locatortype>
+			<locatorvalue>Continue Quiz</locatorvalue>
+		</object>
+		<object name="ReviewQuiz">
+			<locatortype>name</locatortype>
+			<locatorvalue>Review Quiz</locatorvalue>
+		</object>
+		<object name="CloseQuiz">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/close_quiz</locatorvalue>
+		</object>
+		<object name="QuizPointsEarned">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/quiz_points_txt</locatorvalue>
+		</object>
+		<object name="ModalWindowQuizTitle">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/assessment_title_txt</locatorvalue>
+		</object>
+		<object name="ModalWindowQuizPoints">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/assessment_worth_points</locatorvalue>
+		</object>
+		<object name="ModalWindowQuizStatus">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/assessment_status_txt</locatorvalue>
+		</object>
+		<object name="QuizStatus">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/status</locatorvalue>
+		</object>
+		<object name="QuizImage">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.ImageView</locatorvalue>
+		</object>
+		<object name="Correct">
+			<locatortype>name</locatortype>
+			<locatorvalue>Correct</locatorvalue>
+		</object>
+		<object name="Score">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/points</locatorvalue>
+		</object>
+		<object name="ThreeAttempts">
+			<locatortype>name</locatortype>
+			<locatorvalue>3 attempts</locatorvalue>
+		</object>
+		<object name="TwoAttempts">
+			<locatortype>name</locatortype>
+			<locatorvalue>2 attempts</locatorvalue>
+		</object>
+		<object name="OneAttempt">
+			<locatortype>name</locatortype>
+			<locatorvalue>1 attempt</locatorvalue>
+		</object>
+		<object name="QuizSummaryTitle">
+			<locatortype>name</locatortype>
+			<locatorvalue>Quiz Results</locatorvalue>
+		</object>
+		<object name="AttemptsLeft">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/result_header_attempts_score</locatorvalue>
+		</object>
+		<object name="Chapters">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/title</locatorvalue>
+		</object>
+		<object name="QuizClose">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.ImageButton</locatorvalue>
+		</object>
+		<object name="OkBtn">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/button1</locatorvalue>
+		</object>
+		<object name="CancelBtn">
+			<locatortype>id</locatortype>
+			<locatorvalue>android:id/button2</locatorvalue>
+		</object>
+		<object name="QuizNextBtn">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/action_next</locatorvalue>
+		</object>
+		<object name="QuizPreviousBtn">
+			<locatortype>id</locatortype>
+			<locatorvalue>com.pearsoned.andromeda:id/action_previous</locatorvalue>
+		</object>
+		<object name="DetailsScreenHeader">
+			<locatortype>classname</locatortype>
+			<locatorvalue>android.widget.TextView</locatorvalue>
+		</object>
+	</page>
+</objectrepository>

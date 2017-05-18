@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="12" total="16" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[The Report Path Exists and the Path is: D:\CSG\CSG40\CSG48\csg-automation\.\Automation_ReportFiles<br/>]]>
+    </line>
+    <line>
+      <![CDATA[The Report Path Exists and the Path is: D:\CSG\CSG40\CSG48\csg-automation\.\Automation_Reports<br/>]]>
+    </line>
+    <line>
+      <![CDATA[ Automation_Reports Folder Created<br/>]]>
+    </line>
+    <line>
+      <![CDATA[multiSpecificField_V2Search_GET<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: TestStep with Description: "multiSpecificField_V2Search_GET"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Validate Response code<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "Validate Response code"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[fieldtoReturn present in the response <br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "fieldtoReturn present in the response "<br/>]]>
+    </line>
+    <line>
+      <![CDATA[multiSpecificField_V2Search_GET<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: TestStep with Description: "multiSpecificField_V2Search_GET"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Validate Response code<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "Validate Response code"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[fieldtoReturn present in the response <br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "fieldtoReturn present in the response "<br/>]]>
+    </line>
+    <line>
+      <![CDATA[multiSpecificField_V2Search_GET<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: TestStep with Description: "multiSpecificField_V2Search_GET"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Validate Response code<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "Validate Response code"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[fieldtoReturn present in the response <br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "fieldtoReturn present in the response "<br/>]]>
+    </line>
+    <line>
+      <![CDATA[multiSpecificField_V2Search_GET<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: TestStep with Description: "multiSpecificField_V2Search_GET"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Validate Response code<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "Validate Response code"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+    </line>
+    <line>
+      <![CDATA[fieldtoReturn present in the response <br/>]]>
+    </line>
+    <line>
+      <![CDATA[PASSED: SubStep with Description: "fieldtoReturn present in the response "<br/>]]>
+    </line>
+  </reporter-output>
+  <suite name="API Suite" duration-ms="15641" started-at="2017-02-21T12:06:58Z" finished-at="2017-02-21T12:07:14Z">
+    <groups>
+    </groups>
+    <test name="API Test" duration-ms="15641" started-at="2017-02-21T12:06:58Z" finished-at="2017-02-21T12:07:14Z">
+      <class name="com.pearson.tests.Regression_exchangedisciplinev2">
+        <test-method status="PASS" signature="testSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="testSetup" is-config="true" duration-ms="32" started-at="2017-02-21T17:36:57Z" finished-at="2017-02-21T17:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[api]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[api]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[api]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[json]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[csg]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[The Report Path Exists and the Path is: D:\CSG\CSG40\CSG48\csg-automation\.\Automation_ReportFiles<br/>]]>
+            </line>
+            <line>
+              <![CDATA[The Report Path Exists and the Path is: D:\CSG\CSG40\CSG48\csg-automation\.\Automation_Reports<br/>]]>
+            </line>
+            <line>
+              <![CDATA[ Automation_Reports Folder Created<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="getTestData(org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="getTestData" is-config="true" duration-ms="1128" started-at="2017-02-21T17:36:57Z" depends-on-methods="com.pearson.framework.core.APIBase.testSetup" finished-at="2017-02-21T17:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestData -->
+        <test-method status="PASS" signature="initParentRep(org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="initParentRep" is-config="true" duration-ms="1" started-at="2017-02-21T17:36:58Z" finished-at="2017-02-21T17:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initParentRep -->
+        <test-method status="FAIL" signature="get_Single_MultiLevel_Boosting(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="get_Single_MultiLevel_Boosting" duration-ms="0" started-at="2017-02-21T17:36:58Z" data-provider="dp" finished-at="2017-02-21T17:36:58Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.NullPointerException
+	at com.pearson.tests.BaseTest.dp(BaseTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Single_MultiLevel_Boosting -->
+        <test-method status="FAIL" signature="get_single_multi_Facet(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="get_single_multi_Facet" duration-ms="0" started-at="2017-02-21T17:36:58Z" data-provider="dp" finished-at="2017-02-21T17:36:58Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.NullPointerException
+	at com.pearson.tests.BaseTest.dp(BaseTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_single_multi_Facet -->
+        <test-method status="FAIL" signature="get_single_multi_Facet_Sorting(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="get_single_multi_Facet_Sorting" duration-ms="0" started-at="2017-02-21T17:36:58Z" data-provider="dp" finished-at="2017-02-21T17:36:58Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.NullPointerException
+	at com.pearson.tests.BaseTest.dp(BaseTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_single_multi_Facet_Sorting -->
+        <test-method status="PASS" signature="setUp([Ljava.lang.Object;, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="setUp" is-config="true" duration-ms="1" started-at="2017-02-21T17:36:58Z" finished-at="2017-02-21T17:36:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@8fe01f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.pearson.tests.Regression_exchangedisciplinev2.multiSpecificField_V2Search_GET(java.lang.reflect.Method,java.util.LinkedHashMap,org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="multiSpecificField_V2Search_GET(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="multiSpecificField_V2Search_GET" duration-ms="5871" started-at="2017-02-21T17:36:58Z" data-provider="dp" finished-at="2017-02-21T17:37:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pearson.tests.Regression_exchangedisciplinev2.multiSpecificField_V2Search_GET(java.lang.reflect.Method,java.util.LinkedHashMap,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Num=96, Profile_url=, Category=, testDataRow=, appId_header=application-id::exchangeDisciplineV2, qs_qsparam=queryString:: "availableLanguage:us-en OR category:Professional & Career", startIndex_qsparam=, responseSize_qsparam=, searchType_qsparam=, groupBy_qsparam=, grpBySortField_qsparam=, grpBySortOrder_qsparam=, fields_qsparam=fieldsToReturn::productModel,primaryDiscipline,status,category,availableLanguage,contents,dateCreated, grpSize_qsparam=, API_reqURL=/csg/api/v2/search, api_reqBody=, expstatuscode=200, expSchemafilename=testFiles/v2search/json-schema-v2search_Object.json, api2RequestBody=, Testcase_Name=, Testcase_ID=, Run=YES}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[multiSpecificField_V2Search_GET<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: TestStep with Description: "multiSpecificField_V2Search_GET"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Validate Response code<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "Validate Response code"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[fieldtoReturn present in the response <br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "fieldtoReturn present in the response "<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiSpecificField_V2Search_GET -->
+        <test-method status="PASS" signature="write(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="write" is-config="true" duration-ms="2" started-at="2017-02-21T17:37:04Z" finished-at="2017-02-21T17:37:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiSpecificField_V2Search_GET status=SUCCESS method=Regression_exchangedisciplinev2.multiSpecificField_V2Search_GET(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137] output=multiSpecificField_V2Search_GET<br/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="setUp([Ljava.lang.Object;, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="setUp" is-config="true" duration-ms="0" started-at="2017-02-21T17:37:04Z" finished-at="2017-02-21T17:37:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@87725a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.pearson.tests.Regression_exchangedisciplinev2.multiSpecificField_V2Search_GET(java.lang.reflect.Method,java.util.LinkedHashMap,org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="multiSpecificField_V2Search_GET(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="multiSpecificField_V2Search_GET" duration-ms="3259" started-at="2017-02-21T17:37:04Z" data-provider="dp" finished-at="2017-02-21T17:37:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pearson.tests.Regression_exchangedisciplinev2.multiSpecificField_V2Search_GET(java.lang.reflect.Method,java.util.LinkedHashMap,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Num=97, Profile_url=, Category=, testDataRow=, appId_header=application-id::exchangeDisciplineV2, qs_qsparam=queryString:: "availableLanguage:us-en AND category:Professional & Career", startIndex_qsparam=, responseSize_qsparam=, searchType_qsparam=, groupBy_qsparam=, grpBySortField_qsparam=, grpBySortOrder_qsparam=, fields_qsparam=fieldsToReturn::productModel,primaryDiscipline,status,category,availableLanguage,contents,dateCreated, grpSize_qsparam=, API_reqURL=/csg/api/v2/search, api_reqBody=, expstatuscode=200, expSchemafilename=testFiles/v2search/json-schema-v2search_Object.json, api2RequestBody=, Testcase_Name=, Testcase_ID=, Run=YES}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[multiSpecificField_V2Search_GET<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: TestStep with Description: "multiSpecificField_V2Search_GET"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Validate Response code<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "Validate Response code"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[fieldtoReturn present in the response <br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "fieldtoReturn present in the response "<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiSpecificField_V2Search_GET -->
+        <test-method status="PASS" signature="write(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="write" is-config="true" duration-ms="1" started-at="2017-02-21T17:37:07Z" finished-at="2017-02-21T17:37:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiSpecificField_V2Search_GET status=SUCCESS method=Regression_exchangedisciplinev2.multiSpecificField_V2Search_GET(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137] output=multiSpecificField_V2Search_GET<br/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="setUp([Ljava.lang.Object;, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="setUp" is-config="true" duration-ms="0" started-at="2017-02-21T17:37:07Z" finished-at="2017-02-21T17:37:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@75ec37]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.pearson.tests.Regression_exchangedisciplinev2.multiSpecificField_V2Search_GET(java.lang.reflect.Method,java.util.LinkedHashMap,org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="multiSpecificField_V2Search_GET(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="multiSpecificField_V2Search_GET" duration-ms="3209" started-at="2017-02-21T17:37:07Z" data-provider="dp" finished-at="2017-02-21T17:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pearson.tests.Regression_exchangedisciplinev2.multiSpecificField_V2Search_GET(java.lang.reflect.Method,java.util.LinkedHashMap,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Num=98, Profile_url=, Category=, testDataRow=, appId_header=application-id::exchangeDisciplineV2, qs_qsparam=queryString:: "availableLanguage:us-en NOT category:Professional & Career", startIndex_qsparam=, responseSize_qsparam=, searchType_qsparam=, groupBy_qsparam=, grpBySortField_qsparam=, grpBySortOrder_qsparam=, fields_qsparam=fieldsToReturn::productModel,primaryDiscipline,status,category,availableLanguage,contents,dateCreated, grpSize_qsparam=, API_reqURL=/csg/api/v2/search, api_reqBody=, expstatuscode=200, expSchemafilename=testFiles/v2search/json-schema-v2search_Object.json, api2RequestBody=, Testcase_Name=, Testcase_ID=, Run=YES}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[multiSpecificField_V2Search_GET<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: TestStep with Description: "multiSpecificField_V2Search_GET"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Validate Response code<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "Validate Response code"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[fieldtoReturn present in the response <br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "fieldtoReturn present in the response "<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiSpecificField_V2Search_GET -->
+        <test-method status="PASS" signature="write(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="write" is-config="true" duration-ms="0" started-at="2017-02-21T17:37:11Z" finished-at="2017-02-21T17:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiSpecificField_V2Search_GET status=SUCCESS method=Regression_exchangedisciplinev2.multiSpecificField_V2Search_GET(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137] output=multiSpecificField_V2Search_GET<br/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="multiSpecificField_V2Search_GET(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="multiSpecificField_V2Search_GET" duration-ms="3256" started-at="2017-02-21T17:37:11Z" data-provider="dp" finished-at="2017-02-21T17:37:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pearson.tests.Regression_exchangedisciplinev2.multiSpecificField_V2Search_GET(java.lang.reflect.Method,java.util.LinkedHashMap,org.testng.ITestContext)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{Num=99, Profile_url=, Category=, testDataRow=, appId_header=application-id::exchangeDisciplineV2, qs_qsparam=queryString:: "availableLanguage:us-en AND category:Professional & Career AND status:active", startIndex_qsparam=, responseSize_qsparam=, searchType_qsparam=, groupBy_qsparam=, grpBySortField_qsparam=, grpBySortOrder_qsparam=, fields_qsparam=fieldsToReturn::productModel,primaryDiscipline,status,category,availableLanguage,contents,dateCreated, grpSize_qsparam=, API_reqURL=/csg/api/v2/search, api_reqBody=, expstatuscode=200, expSchemafilename=testFiles/v2search/json-schema-v2search_Object.json, api2RequestBody=, Testcase_Name=, Testcase_ID=, Run=YES}]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[multiSpecificField_V2Search_GET<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: TestStep with Description: "multiSpecificField_V2Search_GET"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Validate Response code<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "Validate Response code"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[Count is returned as Zero - please check your QueryString<br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "Count is returned as Zero - please check your QueryString"<br/>]]>
+            </line>
+            <line>
+              <![CDATA[fieldtoReturn present in the response <br/>]]>
+            </line>
+            <line>
+              <![CDATA[PASSED: SubStep with Description: "fieldtoReturn present in the response "<br/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiSpecificField_V2Search_GET -->
+        <test-method status="PASS" signature="setUp([Ljava.lang.Object;, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="setUp" is-config="true" duration-ms="0" started-at="2017-02-21T17:37:11Z" finished-at="2017-02-21T17:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@5ff9d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.pearson.tests.Regression_exchangedisciplinev2.multiSpecificField_V2Search_GET(java.lang.reflect.Method,java.util.LinkedHashMap,org.testng.ITestContext)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="write(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="write" is-config="true" duration-ms="1" started-at="2017-02-21T17:37:14Z" finished-at="2017-02-21T17:37:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=multiSpecificField_V2Search_GET status=SUCCESS method=Regression_exchangedisciplinev2.multiSpecificField_V2Search_GET(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137] output=multiSpecificField_V2Search_GET<br/>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="FAIL" signature="multiSpecificField_V2Search_POST(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="multiSpecificField_V2Search_POST" duration-ms="0" started-at="2017-02-21T17:37:14Z" data-provider="dp" finished-at="2017-02-21T17:37:14Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.NullPointerException
+	at com.pearson.tests.BaseTest.dp(BaseTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiSpecificField_V2Search_POST -->
+        <test-method status="FAIL" signature="normal_and_wildCard_V2Search_GET(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="normal_and_wildCard_V2Search_GET" duration-ms="0" started-at="2017-02-21T17:37:14Z" data-provider="dp" finished-at="2017-02-21T17:37:14Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.NullPointerException
+	at com.pearson.tests.BaseTest.dp(BaseTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- normal_and_wildCard_V2Search_GET -->
+        <test-method status="FAIL" signature="normal_and_wildCard_V2Search_POST(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="normal_and_wildCard_V2Search_POST" duration-ms="0" started-at="2017-02-21T17:37:14Z" data-provider="dp" finished-at="2017-02-21T17:37:14Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.NullPointerException
+	at com.pearson.tests.BaseTest.dp(BaseTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- normal_and_wildCard_V2Search_POST -->
+        <test-method status="FAIL" signature="post_Single_MultiLevel_Boosting(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="post_Single_MultiLevel_Boosting" duration-ms="0" started-at="2017-02-21T17:37:14Z" data-provider="dp" finished-at="2017-02-21T17:37:14Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.NullPointerException
+	at com.pearson.tests.BaseTest.dp(BaseTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_Single_MultiLevel_Boosting -->
+        <test-method status="FAIL" signature="post_Single_OR_MultiLevel_Sorting(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="post_Single_OR_MultiLevel_Sorting" duration-ms="0" started-at="2017-02-21T17:37:14Z" data-provider="dp" finished-at="2017-02-21T17:37:14Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.NullPointerException
+	at com.pearson.tests.BaseTest.dp(BaseTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_Single_OR_MultiLevel_Sorting -->
+        <test-method status="FAIL" signature="post_single_multi_Facet(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="post_single_multi_Facet" duration-ms="0" started-at="2017-02-21T17:37:14Z" data-provider="dp" finished-at="2017-02-21T17:37:14Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.NullPointerException
+	at com.pearson.tests.BaseTest.dp(BaseTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_single_multi_Facet -->
+        <test-method status="FAIL" signature="post_single_multi_Facet_Sorting(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="post_single_multi_Facet_Sorting" duration-ms="0" started-at="2017-02-21T17:37:14Z" data-provider="dp" finished-at="2017-02-21T17:37:14Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.NullPointerException
+	at com.pearson.tests.BaseTest.dp(BaseTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_single_multi_Facet_Sorting -->
+        <test-method status="FAIL" signature="singleSpecificField_ExactPharse_V2Search_GET(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="singleSpecificField_ExactPharse_V2Search_GET" duration-ms="0" started-at="2017-02-21T17:37:14Z" data-provider="dp" finished-at="2017-02-21T17:37:14Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.NullPointerException
+	at com.pearson.tests.BaseTest.dp(BaseTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleSpecificField_ExactPharse_V2Search_GET -->
+        <test-method status="FAIL" signature="singleSpecificField_ExactPharse_V2Search_POST(java.lang.reflect.Method, java.util.LinkedHashMap, org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="singleSpecificField_ExactPharse_V2Search_POST" duration-ms="0" started-at="2017-02-21T17:37:14Z" data-provider="dp" finished-at="2017-02-21T17:37:14Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:161)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:429)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+Caused by: java.lang.NullPointerException
+	at com.pearson.tests.BaseTest.dp(BaseTest.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:135)
+	... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleSpecificField_ExactPharse_V2Search_POST -->
+        <test-method status="PASS" signature="endParentRepo(org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="endParentRepo" is-config="true" duration-ms="1" started-at="2017-02-21T17:37:14Z" finished-at="2017-02-21T17:37:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endParentRepo -->
+        <test-method status="PASS" signature="poststeps(org.testng.ITestContext)[pri:0, instance:com.pearson.tests.Regression_exchangedisciplinev2@5cb137]" name="poststeps" is-config="true" duration-ms="167" started-at="2017-02-21T17:37:14Z" finished-at="2017-02-21T17:37:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@129d1d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- poststeps -->
+      </class> <!-- com.pearson.tests.Regression_exchangedisciplinev2 -->
+    </test> <!-- API Test -->
+  </suite> <!-- API Suite -->
+</testng-results>

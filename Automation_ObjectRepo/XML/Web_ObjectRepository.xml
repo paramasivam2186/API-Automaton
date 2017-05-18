@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objectrepository>
+    <page name="LoginPage">
+        <object name="EmailAddress">
+            <locatortype>name</locatortype>
+            <locatorvalue>username</locatorvalue>
+        </object>
+        <object name="Password">
+            <locatortype>name</locatortype>
+            <locatorvalue>password</locatorvalue>
+        </object>
+        <object name="LoginButton">
+            <locatortype>xpath</locatortype>
+            <locatorvalue>//div[@class='form-actions']/button</locatorvalue>
+        </object>
+        <object name="LoginError">
+            <locatortype>xpath</locatortype>
+            <locatorvalue>//div[contains(@class,'alert-dismissible')]/div/span</locatorvalue>
+        </object>
+        <object name="message_span">
+            <locatortype>id</locatortype>
+            <locatorvalue>_ctl0__ctl0_Content_Main_message</locatorvalue>
+        </object>
+    </page>
+</objectrepository>

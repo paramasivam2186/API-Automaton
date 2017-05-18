@@ -1,0 +1,333 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"count": {
+			"type": "integer"
+		},
+		"requestId": {
+			"type": "string"
+		},
+		"searchResults": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"key": {
+						"type": "string"
+					},
+					"count": {
+						"type": "integer"
+					},
+					"productsList": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"additionalProperties": false,
+							"properties": {
+								"productId": {
+									"type": "string"
+								},
+								"source": {
+									"type": "object",
+									"additionalProperties": false,
+									"properties": {
+										"@context": {
+											"type": "object",
+											"properties": {
+												"cnt": {
+													"type": "string"
+												},
+												"bf": {
+													"type": "string"
+												},
+												"schema": {
+													"type": "string"
+												}
+											},
+											"required": [
+												"cnt",
+												"bf",
+												"schema"
+											]
+										},
+										"@type": {
+											"type": "string"
+										},
+										"schema:name": {
+											"type": "string"
+										},
+										"schema:author": {
+											"type": "array",
+											"items": {
+												"type": "object",
+												"properties": {
+													"@type": {
+														"type": "string"
+													},
+													"schema:familyName": {
+														"type": "string"
+													}
+												}
+											}
+										},
+
+										"schema:keywords": {
+											"type": "array",
+											"items": {
+												"type": "string"
+											}
+										},
+										"schema:publisher": {
+											"type": "object",
+											"properties": {
+												"@type": {
+													"type": "string"
+												},
+												"schema:name": {
+													"type": "string"
+												}
+											},
+											"required": [
+												"@type",
+												"schema:name"
+											]
+										},
+										"schema:brand": {
+											"type": "object",
+											"properties": {
+												"@type": {
+													"type": "string"
+												},
+												"schema:name": {
+													"type": "string"
+												}
+											},
+											"required": [
+												"@type",
+												"schema:name"
+											]
+										},
+
+										"schema:about": {
+											"type": "string"
+										},
+
+										"schema:description": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields": {
+											"type": "object",
+											"properties": {
+												"authors": {
+													"type": "array",
+													"items": {
+														"type": "object",
+														"properties": {
+															"familyName": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								},
+								"matchedFields": {
+									"type": "object",
+									"additionalProperties": false,
+									"properties": {
+										"schema:brand.schema:url": {
+											"type": "string"
+										},
+										"schema:images.schema:catalogUrl": {
+											"type": "string"
+										},
+										"cnt:productPlatform.cnt:name": {
+											"type": "string"
+										},
+										"schema:name": {
+											"type": "string"
+										},
+										"schema:keywords": {
+											"type": "string"
+										},
+										"schema:description": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.slug": {
+											"type": "string"
+										},
+										"schema:brand.schema:name": {
+											"type": "string"
+										},
+										"schema:publisher.schema:name": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.slug.raw": {
+											"type": "string"
+										},
+										"schema:images.schema:chapterThumbnailUrl": {
+											"type": "string"
+										},
+										"cnt:productModel.cnt:name.raw": {
+											"type": "string"
+										},
+										"cnt:productModel.cnt:name": {
+											"type": "string"
+										},
+										"cnt:productPlatform.cnt:name.raw": {
+											"type": "string"
+										},
+										"cnt:slug": {
+											"type": "string"
+										},
+										"schema:description.schema:html": {
+											"type": "string"
+										},
+										"schema:images.schema:invitationUrl": {
+											"type": "string"
+										},
+										"cnt:productModel.cnt:features": {
+											"type": "string"
+										},
+										"schema:description.schema:txt": {
+											"type": "string"
+										},
+										"schema:images.schema:coverUrl": {
+											"type": "string"
+										},
+										"schema:images.schema:backgroundUrl": {
+											"type": "string"
+										},
+										"schema:images.schema:coverThumbnailUrl": {
+											"type": "string"
+										},
+										"schema:images.schema:thumbnailUrl": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.productPlatform": {
+											"type": "string"
+										},
+										"schema:author.schema:biography": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.potentialAction.previewAction.target.url": {
+											"type": "string"
+										},
+										"schema:previewChapterUrl": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.cfKeywords": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.cfKeywords.auto": {
+											"type": "string"
+										},
+										"schema:keywords.multi_value": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.cfTags": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.tags": {
+											"type": "string"
+										},
+										"schema:author.schema:familyName": {
+											"type": "string"
+										},
+
+										"cnt:auxiliaryFields.attribution": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.cfCopyrightHolder": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.cfParentAttribution": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.cfPublisher": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.license": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.ownerClass": {
+											"type": "string"
+										},
+										"schema:publisher": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.discipline.primaryDiscipline": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.discipline.secondaryDiscipline": {
+											"type": "string"
+										},
+										"cnt:discipline.cnt:primaryDiscipline": {
+											"type": "string"
+										},
+										"cnt:discipline.cnt:secondaryDiscipline": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.authors.biography": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.disciplines.primaryDiscipline": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.disciplines.secondaryDiscipline": {
+											"type": "string"
+										},
+										"schema:about": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.image.catalog.url": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields._providerSystem.name": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields._providerSystem.name.raw": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.cfTitle": {
+											"type": "string"
+										},
+										"schema:name.auto": {
+											"type": "string"
+										},
+										"schema:title": {
+											"type": "string"
+										},
+										"schema:title.auto": {
+											"type": "string"
+										}
+									}
+								}
+							},
+							"required": [
+								"productId",
+								"source",
+								"matchedFields"
+							]
+						}
+					}
+				},
+				"required": [
+					"key",
+					"count",
+					"productsList"
+				]
+			}
+		}
+	},
+	"required": [
+		"count",
+		"requestId",
+		"searchResults"
+	]
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Revel Regression Testing]">
+  <parameter name="App" value="Revel.apk"/>
+  <parameter name="ExecutionEnvironment" value="local"/>
+  <parameter name="CaptureScreenshot" value="true"/>
+  <parameter name="ApplicationToTest" value="Revel"/>
+  <parameter name="noReset" value="true"/>
+  <parameter name="gridURL" value=""/>
+  <parameter name="TestingType" value="app"/>
+  <parameter name="SaucelabsUsername" value=""/>
+  <parameter name="ApplicationEnvironment" value="qa"/>
+  <parameter name="fullReset" value="false"/>
+  <parameter name="SaucelabsAPIKEY" value=""/>
+  <parameter name="MobileBrowserName" value=""/>
+  <parameter name="MobileDeviceName" value=""/>
+  <parameter name="MobileDeviceOrientation" value="portrait"/>
+  <parameter name="MobilePlatform" value="android"/>
+  <parameter name="CaptureVideo" value="true"/>
+  <parameter name="MobilePlatformVersion" value="5.0"/>
+  <parameter name="appiumServerURL" value="http://127.0.0.1:4723/wd/hub"/>
+  <test name="Revel Test Cases(failed)">
+    <groups>
+      <run>
+        <include name="validCase"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.pearson.revel.test.TC001_GlossarySearchTests">
+        <methods>
+          <include name="getGlossary"/>
+          <include name="getGlossarywithIndexid"/>
+          <include name="getGlossarywithIndexidandKey"/>
+          <include name="getGlossary2_1"/>
+        </methods>
+      </class> <!-- com.pearson.revel.test.TC001_GlossarySearchTests -->
+    </classes>
+  </test> <!-- Revel Test Cases(failed) -->
+</suite> <!-- Failed suite [Revel Regression Testing] -->

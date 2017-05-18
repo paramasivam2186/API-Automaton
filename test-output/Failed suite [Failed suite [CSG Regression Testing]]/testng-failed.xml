@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [CSG Regression Testing]]]">
+  <parameter name="ExecutionEnvironment" value="local"/>
+  <parameter name="RESTAPIContentType" value="json"/>
+  <parameter name="ApplicationToTest" value="csg"/>
+  <parameter name="gridURL" value=""/>
+  <parameter name="TestingType" value="api"/>
+  <parameter name="SaucelabsUsername" value=""/>
+  <parameter name="RetryAttempt" value="0"/>
+  <parameter name="ApplicationEnvironment" value="qa"/>
+  <parameter name="SaucelabsAPIKEY" value=""/>
+  <listeners>
+    <listener class-name="com.pearson.framework.report.CustomListeners"/>
+  </listeners>
+  <test name="CSG Test Casess(failed)(failed)(failed)">
+    <groups>
+      <run>
+        <include name="validCase"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.pearson.tests.TC003_V2SearchTests">
+        <methods>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- com.pearson.tests.TC003_V2SearchTests -->
+      <class name="com.pearson.tests.TC002_GlossarySearchTests">
+        <methods>
+          <include name="cm_get_GlossarySearchWithSpecificKey"/>
+        </methods>
+      </class> <!-- com.pearson.tests.TC002_GlossarySearchTests -->
+    </classes>
+  </test> <!-- CSG Test Casess(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [CSG Regression Testing]]] -->

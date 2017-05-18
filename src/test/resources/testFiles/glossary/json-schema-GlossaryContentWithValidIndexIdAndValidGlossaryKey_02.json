@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "indexId": {
+      "type": "string"
+    },
+    "glossary": {
+      "type": "object",
+      "properties": {
+        "key-age-structure": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        }
+      },
+      "required": [
+        "key-age-structure"
+      ]
+    }
+  },
+  "required": [
+    "indexId",
+    "glossary"
+  ]
+}

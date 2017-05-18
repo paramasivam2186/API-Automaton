@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Fullbeauty Web Testing" configfailurepolicy="skip">
+
+	<listeners>
+		<listener class-name="com.pearson.framework.report.CustomListeners" />
+	</listeners>
+
+	<parameter name="TestingType" value="api" />
+	<parameter name="ExecutionEnvironment" value="local" />
+	<parameter name="SaucelabsUsername" value="" />
+	<parameter name="SaucelabsAPIKEY" value="" />
+	<parameter name="ApplicationEnvironment" value="qa" />
+	<parameter name="ObjectRepoFormat" value="xml" />
+	<parameter name="WebdriverTimeout" value="120" />
+	<parameter name="RESTAPIContentType" value="json" />
+	<parameter name="CaptureScreenshot" value="true" />
+	<parameter name="CaptureVideo" value="false" />
+	<parameter name="gridURL" value="" />
+	<parameter name="ApplicationToTest" value="revel" />
+	<parameter name="RetryAttempt" value="0" />
+
+	<test name="Revel Test Cases" configfailurepolicy="skip">
+		<parameter name="WebBrowser" value="ff" />
+		<parameter name="WebBrowserPlatform" value="" />
+		<parameter name="WebBrowserVersion" value="" />
+		<parameter name="WebScreenResolution" value="" />
+		<parameter name="FirefoxBinary" value="" />
+		<classes>
+			<class name="com.pearson.tests.TCOO3_V2SearchTests" />
+		</classes>
+	</test>
+</suite>

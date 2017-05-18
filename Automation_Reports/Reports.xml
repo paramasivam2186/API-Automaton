@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomeReports>
+    <ReportTestSuite>
+        <TestSuiteName>API Suite</TestSuiteName>
+        <Environment>local</Environment>
+        <TestingType>api</TestingType>
+        <TestDateTime>Mon Mar 06 18:50:37 IST 2017</TestDateTime>
+        <TestEndTime>Mon Mar 06 18:50:48 IST 2017</TestEndTime>
+        <Duration>0:0:10</Duration>
+        <ReportTestCase TestCaseID="Get_Navigation_Types_With_ValidIndexID_01api" TestCase="Get_Navigation_Types_With_ValidIndexID_01" TestCaseStatus="Passed" Browser="api" Website="csg" TestCaseBrowser="Get_Navigation_Types_With_ValidIndexID_01api" TestCaseWebSite="Get_Navigation_Types_With_ValidIndexID_01csg" BrowserWebSite="apicsg">
+            <reportTestStep Type="teststep" Description="Get_Navigation_Types_With_ValidIndexID_01" Result="Passed" TestData="" ErrorMsg="" TestStepID="Get_Navigation_Types_With_ValidIndexID_01api"/>
+            <reportTestStep Type="substep" Description="URI" Result="Passed" TestData="https://content-service-qa.stg-prsn.com:443/csg/api/cm/navigation/types" ErrorMsg="" TestStepID="Get_Navigation_Types_With_ValidIndexID_01api"/>
+            <reportTestStep Type="substep" Description="api_getCallWithParameter" Result="Passed" TestData="{indexId=f552f2f0c1cabf333b3f57ace8d72db4}" ErrorMsg="" TestStepID="Get_Navigation_Types_With_ValidIndexID_01api"/>
+            <reportTestStep Type="substep" Description="Validate Response code" Result="Passed" TestData="200" ErrorMsg="" TestStepID="Get_Navigation_Types_With_ValidIndexID_01api"/>
+        </ReportTestCase>
+        <ReportTestCase TestCaseID="get_date_single_multi_Facetapi" TestCase="get_date_single_multi_Facet" TestCaseStatus="Passed" Browser="api" Website="csg" TestCaseBrowser="get_date_single_multi_Facetapi" TestCaseWebSite="get_date_single_multi_Facetcsg" BrowserWebSite="apicsg">
+            <reportTestStep Type="substep" Description="URI" Result="Passed" TestData="https://content-service-qa.stg-prsn.com:443/csg/api/v2/search" ErrorMsg="" TestStepID="get_date_single_multi_Facetapi"/>
+            <reportTestStep Type="substep" Description="Parameter Value" Result="Passed" TestData="{fieldsToReturn=slug,name,productModelName,productModelFeatures,productStage,ISBN13,ISBN10,region,descriptionHtml,descriptionTxt, searchType=FACET, groupSize=1, groupBy=name, queryString=childQuery:offerEndDate:&gt;2017-10-13}" ErrorMsg="" TestStepID="get_date_single_multi_Facetapi"/>
+            <reportTestStep Type="substep" Description="Validate Response code" Result="Passed" TestData="200" ErrorMsg="" TestStepID="get_date_single_multi_Facetapi"/>
+        </ReportTestCase>
+    </ReportTestSuite>
+</CustomeReports>

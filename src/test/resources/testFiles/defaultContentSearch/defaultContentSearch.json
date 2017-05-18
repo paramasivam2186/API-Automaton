@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "totalHits": {
+      "type": "integer"
+    },
+    "hits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "contentPreview": {
+            "type": "string"
+          },
+          "orderId": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "url",
+          "title",
+          "contentPreview",
+          "orderId"
+        ]
+      }
+    },
+    "wordHits": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "totalHits",
+    "hits",
+    "wordHits"
+  ]
+}

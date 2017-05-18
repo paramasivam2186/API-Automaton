@@ -1,0 +1,1876 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "indexId": {
+      "type": "string"
+    },
+    "glossary": {
+      "type": "object",
+      "properties": {
+        "key-age-structure": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-agricultural-yield": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-agriculture": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-alpha-radiation": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-battery": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-beta-radiation": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-biological-pest-control": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-biomass-fuels-often-called-biofuels": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-birth-rate": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-breeding": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-carbon-sequestration": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-centralized-power-generation-system": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-chain-reaction": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-chemical-pest-control": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-compaction": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-concentrated-animal-feeding-operation-cafo": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-concentrated-solar-thermal-power-facilities": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-conventional-breeding": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-conventional-oil-and-gas": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-crude-oil": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-death-rate": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-decentralized-power-generation-system": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-demographic-transition": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-demography": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-dependency-ratio": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-developed-countries": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-developing-countries": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-dewatering": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-discriminativestimulus": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-ecological-footprint": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-electric-car": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-electric-power-grid": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-emissions": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-energy-conservation": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-energy-density": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-energy-efficiency": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-energy-intensity": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-energy-quality": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-enriched": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-erosion": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-famine": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-fission": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-fossil-fuels": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-fractional-distillation": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-fuel-cell": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-fuel-rods": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-fusion": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-gamma-radiation": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-genetic-engineering": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-genetically-modified-organisms-gmos": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-geothermal-direct-use": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-geothermal-electricity-production": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-geothermal-energy": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-green-revolution": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-groundwater": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-growthrate": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-heavy-oil-sands": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-hybrid": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-hybrid-car": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-hydraulic-fracturing": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-hydrocarbon": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-hydropower": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-industrial-agriculture": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-industrial-fertilizers": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-industrial-nitrogen-fixation": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-integrated-pest-management-ipm": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-ionizing-radiation": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-kinetic-energy": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-malnutrition": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-marginal-reserves": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-mechanical-pest-control": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-methane-hydrates": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-monoculture": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-negawatts": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-nonrenewable-energy": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-nuclear-meltdown": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-nuclear-reactor": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-oil-shales": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-organic-fertilizers": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-organic-food": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-passive-solar-design": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-path-dependency": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-photosynthesis": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-photovoltaic-effect": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-point-source": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-population-momentum": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-potential-energy": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-precision-agriculture": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-pressurized-water-reactor": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-radioactive-elements": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-recoverable-reserves": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-renewable-energy": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-replacement-rate": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-reprocessing": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-resistance": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-salinization": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-second-generation-biomass-fuels": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-selective-breeding": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-smart-grid": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-soil-fertility": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-solar-cooking": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-solar-photovoltaic-pv-system": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-solar-water-heating": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-subeconomic-resources": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-surface-water": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-sustainable-energy": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-three-dimensional-seismic-surveying": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-tidal-energy": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-total-fertility-rate": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-traditional-biomass-fuels": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-transgenic-organism": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-unconventional-oil-and-gas": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-undernourishment": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-undiscovered-resources": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-wind-energy": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "key-wind-farms": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        }
+      },
+      "required": [
+        "key-age-structure",
+        "key-agricultural-yield",
+        "key-agriculture",
+        "key-alpha-radiation",
+        "key-battery",
+        "key-beta-radiation",
+        "key-biological-pest-control",
+        "key-biomass-fuels-often-called-biofuels",
+        "key-birth-rate",
+        "key-breeding",
+        "key-carbon-sequestration",
+        "key-centralized-power-generation-system",
+        "key-chain-reaction",
+        "key-chemical-pest-control",
+        "key-compaction",
+        "key-concentrated-animal-feeding-operation-cafo",
+        "key-concentrated-solar-thermal-power-facilities",
+        "key-conventional-breeding",
+        "key-conventional-oil-and-gas",
+        "key-crude-oil",
+        "key-death-rate",
+        "key-decentralized-power-generation-system",
+        "key-demographic-transition",
+        "key-demography",
+        "key-dependency-ratio",
+        "key-developed-countries",
+        "key-developing-countries",
+        "key-dewatering",
+        "key-discriminativestimulus",
+        "key-ecological-footprint",
+        "key-electric-car",
+        "key-electric-power-grid",
+        "key-emissions",
+        "key-energy-conservation",
+        "key-energy-density",
+        "key-energy-efficiency",
+        "key-energy-intensity",
+        "key-energy-quality",
+        "key-enriched",
+        "key-erosion",
+        "key-famine",
+        "key-fission",
+        "key-fossil-fuels",
+        "key-fractional-distillation",
+        "key-fuel-cell",
+        "key-fuel-rods",
+        "key-fusion",
+        "key-gamma-radiation",
+        "key-genetic-engineering",
+        "key-genetically-modified-organisms-gmos",
+        "key-geothermal-direct-use",
+        "key-geothermal-electricity-production",
+        "key-geothermal-energy",
+        "key-green-revolution",
+        "key-groundwater",
+        "key-growthrate",
+        "key-heavy-oil-sands",
+        "key-hybrid",
+        "key-hybrid-car",
+        "key-hydraulic-fracturing",
+        "key-hydrocarbon",
+        "key-hydropower",
+        "key-industrial-agriculture",
+        "key-industrial-fertilizers",
+        "key-industrial-nitrogen-fixation",
+        "key-integrated-pest-management-ipm",
+        "key-ionizing-radiation",
+        "key-kinetic-energy",
+        "key-malnutrition",
+        "key-marginal-reserves",
+        "key-mechanical-pest-control",
+        "key-methane-hydrates",
+        "key-monoculture",
+        "key-negawatts",
+        "key-nonrenewable-energy",
+        "key-nuclear-meltdown",
+        "key-nuclear-reactor",
+        "key-oil-shales",
+        "key-organic-fertilizers",
+        "key-organic-food",
+        "key-passive-solar-design",
+        "key-path-dependency",
+        "key-photosynthesis",
+        "key-photovoltaic-effect",
+        "key-point-source",
+        "key-population-momentum",
+        "key-potential-energy",
+        "key-precision-agriculture",
+        "key-pressurized-water-reactor",
+        "key-radioactive-elements",
+        "key-recoverable-reserves",
+        "key-renewable-energy",
+        "key-replacement-rate",
+        "key-reprocessing",
+        "key-resistance",
+        "key-salinization",
+        "key-second-generation-biomass-fuels",
+        "key-selective-breeding",
+        "key-smart-grid",
+        "key-soil-fertility",
+        "key-solar-cooking",
+        "key-solar-photovoltaic-pv-system",
+        "key-solar-water-heating",
+        "key-subeconomic-resources",
+        "key-surface-water",
+        "key-sustainable-energy",
+        "key-three-dimensional-seismic-surveying",
+        "key-tidal-energy",
+        "key-total-fertility-rate",
+        "key-traditional-biomass-fuels",
+        "key-transgenic-organism",
+        "key-unconventional-oil-and-gas",
+        "key-undernourishment",
+        "key-undiscovered-resources",
+        "key-wind-energy",
+        "key-wind-farms"
+      ]
+    }
+  },
+  "required": [
+    "indexId",
+    "glossary"
+  ]
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CSG Regression Testing]">
+  <parameter name="ExecutionEnvironment" value="local"/>
+  <parameter name="RESTAPIContentType" value="json"/>
+  <parameter name="ApplicationToTest" value="csg"/>
+  <parameter name="gridURL" value=""/>
+  <parameter name="TestingType" value="api"/>
+  <parameter name="SaucelabsUsername" value=""/>
+  <parameter name="RetryAttempt" value="0"/>
+  <parameter name="ApplicationEnvironment" value="qa"/>
+  <parameter name="SaucelabsAPIKEY" value=""/>
+  <listeners>
+    <listener class-name="com.pearson.framework.report.CustomListeners"/>
+  </listeners>
+  <test name="CSG Test Casess(failed)">
+    <classes>
+      <class name="com.pearson.tests.Ingestion_Controller_2_1">
+        <methods>
+          <include name="Ingest_Multiple_pageURL_04"/>
+          <include name="Ingest_Multiple_pageURL_and_metadata_without_IndexId_08"/>
+          <include name="Ingest_Multiple_pageURL_with_metadata_02"/>
+          <include name="Ingest_pageURL_and_metadata_without_applicationId_06"/>
+          <include name="CM_Update_Annotations_with_valid_mandatory_fields"/>
+          <include name="Ingest_Annotation_01"/>
+          <include name="Ingest_metadata_without_IndexId_10"/>
+          <include name="Ingest_pageURL_and_metadata_with_Invalid_applicationId_07"/>
+          <include name="CM_Update_Annotations_with_missing_mandatory_fields"/>
+          <include name="Ingest_Multiple_bookURL_02"/>
+          <include name="Ingest_Single_pageURL_with_metadata_01"/>
+          <include name="Ingest_SIngle_bookURL_01"/>
+          <include name="Ingest_only_pageURL_04"/>
+          <include name="Ingest_only_metadata_05"/>
+          <include name="Ingest_pageURL_and_metadata_with_Null_IndexId_09"/>
+          <include name="getTestData"/>
+          <include name="testSetup"/>
+          <include name="Ingest_Single_pageURL_05"/>
+          <include name="Ingest_Same_pageURL_with_metadata_03"/>
+        </methods>
+      </class> <!-- com.pearson.tests.Ingestion_Controller_2_1 -->
+    </classes>
+  </test> <!-- CSG Test Casess(failed) -->
+</suite> <!-- Failed suite [CSG Regression Testing] -->

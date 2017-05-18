@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "indexId": {
+      "type": "string"
+    },
+    "glossary": {
+      "type": "object",
+      "properties": {
+        "profound": {
+          "type": "object",
+          "properties": {
+            "glossDefinition": {
+              "type": "object",
+              "properties": {
+                "audio": {
+                  "type": "string"
+                },
+                "part-of-speech": {
+                  "type": "string"
+                },
+                "phonetic-transcription": {
+                  "type": "string"
+                },
+                "meaning": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "audio",
+                "part-of-speech",
+                "phonetic-transcription",
+                "meaning"
+              ]
+            },
+            "term": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "glossDefinition",
+            "term"
+          ]
+        }
+      },
+      "required": [
+        "profound"
+      ]
+    }
+  },
+  "required": [
+    "indexId",
+    "glossary"
+  ]
+}

@@ -1,0 +1,134 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"count": {
+			"type": "integer"
+		},
+		"requestId": {
+			"type": "string"
+		},
+		"searchResults": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"additionalProperties": false,
+				"properties": {
+					"key": {
+						"type": "string"
+					},
+					"count": {
+						"type": "integer"
+					},
+					"productsList": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"additionalProperties": false,
+							"properties": {
+								"productId": {
+									"type": "string"
+								},
+								"source": {
+									"type": "object",
+									"additionalProperties": false,
+									"properties": {
+										"@context": {
+											"type": "object",
+											"additionalProperties": false,
+											"properties": {
+												"cnt": {
+													"type": "string"
+												},
+												"bf": {
+													"type": "string"
+												},
+												"schema": {
+													"type": "string"
+												}
+											},
+											"required": [
+												"cnt",
+												"bf",
+												"schema"
+											]
+										},
+										"@type": {
+											"type": "string"
+										},
+										"schema:name": {
+											"type": "string"
+										},
+										"schema:description": {
+											"type": "string"
+										},
+										"schema:keywords": {
+											"type": "array",
+											"items": {
+												"type": "string"
+											}
+										},
+										"schema:brand": {
+											"type": "object"
+										},
+										"schema:author": {
+											"type": "array",
+											"items": {
+												"type": "object",
+												"properties": {
+													"@type": {
+														"type": "string"
+													},
+													"schema:familyName": {
+														"type": "string"
+													}
+												},
+												"required": [
+													"@type",
+													"schema:familyName"
+												]
+											}
+										}
+									}
+								},
+								"matchedFields": {
+									"type": "object",
+									"properties": {
+										"schema:brand.schema:url": {
+											"type": "string"
+										},
+										"cnt:auxiliaryFields.image.catalog.url": {
+											"type": "string"
+										},
+										"schema:keywords": {
+											"type": "string"
+										},
+										"schema:brand.schema:name": {
+											"type": "string"
+										}
+									}
+								}
+							},
+							"required": [
+								"productId",
+								"source",
+								"matchedFields"
+							]
+						}
+					}
+				},
+				"required": [
+					"key",
+					"count",
+					"productsList"
+				]
+			}
+		}
+	},
+	"required": [
+		"count",
+		"requestId",
+		"searchResults"
+	]
+}

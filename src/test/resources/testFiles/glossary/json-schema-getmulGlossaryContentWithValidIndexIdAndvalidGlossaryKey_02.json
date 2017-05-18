@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "indexId": {
+      "type": "string"
+    },
+    "glossary": {
+      "type": "object",
+      "properties": {
+        "key-age-structure": {
+          "type": "object",
+          "properties": {
+            "glossDefinition": {
+              "type": "object",
+              "properties": {
+                "meaning": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "meaning"
+              ]
+            },
+            "term": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "glossDefinition",
+            "term"
+          ]
+        }
+      },
+      "required": [
+        "key-age-structure"
+      ]
+    }
+  },
+  "required": [
+    "indexId",
+    "glossary"
+  ]
+}

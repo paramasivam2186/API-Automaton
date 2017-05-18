@@ -1,0 +1,87 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"count": {
+			"type": "integer"
+		},
+		"requestId": {
+			"type": "string"
+		},
+		"searchResults": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"productId": {
+						"type": "string"
+					},
+					"source": {
+						"type": "object",
+						"properties": {
+							"@context": {
+								"type": "object",
+								"properties": {
+									"cnt": {
+										"type": "string"
+									},
+									"bf": {
+										"type": "string"
+									},
+									"schema": {
+										"type": "string"
+									}
+								}
+							},
+							"@type": {
+								"type": "string"
+							},
+							"schema:name": {
+								"type": "string"
+							}
+						}
+					},
+
+					"matchedFields": {
+						"type": "object",
+						"properties": {
+							"schema:brand.schema:url": {
+								"type": "string"
+							},
+							"cnt:auxiliaryFields.image.catalog.url": {
+								"type": "string"
+							},
+							"schema:keywords": {
+								"type": "string"
+							},
+							"schema:name": {
+								"type": "string"
+							},
+							"schema:description": {
+								"type": "string"
+							},
+							"cnt:auxiliaryFields.slug": {
+								"type": "string"
+							},
+							"schema:brand.schema:name": {
+								"type": "string"
+							},
+							"schema:about": {
+								"type": "string"
+							}
+						}
+					}
+				},
+				"required": [
+					"productId",
+					"source"
+				]
+			}
+		}
+	},
+	"required": [
+		"count",
+		"requestId",
+		"searchResults"
+	]
+}

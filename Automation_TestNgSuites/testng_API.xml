@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CSG Regression Testing" configfailurepolicy="skip">
+
+	<listeners>
+		<listener class-name="com.pearson.framework.report.CustomListeners" />
+	</listeners>
+
+	<parameter name="TestingType" value="api" />
+	<parameter name="ExecutionEnvironment" value="local" />
+	<parameter name="SaucelabsUsername" value="" />
+	<parameter name="SaucelabsAPIKEY" value="" />
+	<parameter name="ApplicationEnvironment" value="qa" />
+	<parameter name="RESTAPIContentType" value="json" />
+	<parameter name="gridURL" value="" />
+	<parameter name="ApplicationToTest" value="csg" />
+	<parameter name="RetryAttempt" value="0" />
+
+
+	<test name="CSG Test Casess" configfailurepolicy="skip">
+		<classes>
+	 			<class name="com.pearson.tests.SecondDay" />
+			<!--<class name="com.pearson.tests.CSG477GetNavigationType" />
+			<class name="com.pearson.tests.CSG641DefaultContentSearchBe" />
+			<class name="com.pearson.tests.CSG477GlosNoVersionSearchGloss" /> 
+			
+			
+ 		  <class name="com.pearson.tests.CSG477GetNavigation" />
+			 <class name="com.pearson.tests.CSG477GlosNoVersionSearchGloss" />
+			<class name="com.pearson.tests.CSG477GetNavigationType" />
+			<class name="com.pearson.tests.CSG641DefaultContentSearchBe" />
+			<class name="com.pearson.tests.Ingestion_Controller_2_1" />
+			<class name="com.pearson.tests.V2SearchPriority2" />
+			<class name="com.pearson.tests.V2Search_Priority" />
+			<class name="com.pearson.tests.TC003_V2SearchMultiFacetTest" />
+			<class name="com.pearson.tests.TC003_V2SearchSingleFacetTest" />
+			<class name="com.pearson.tests.TC003_V2SearchTest" /> 
+			<class name="com.pearson.tests.TC002_GlossarySearchTests" />  -->
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "indexId": {
+      "type": "string"
+    },
+    "glossary": {
+      "type": "object",
+      "properties": {
+        "ngss-4398dcd5-6834-49ef-bd35-7a85c3f3feed": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        },
+        "ngss-2e6b169b-a46e-4178-98dd-eef31a9a8afc": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "term",
+            "meaning"
+          ]
+        }
+      },
+      "required": [
+        "ngss-4398dcd5-6834-49ef-bd35-7a85c3f3feed",
+        "ngss-2e6b169b-a46e-4178-98dd-eef31a9a8afc"
+      ]
+    }
+  },
+  "required": [
+    "indexId",
+    "glossary"
+  ]
+}

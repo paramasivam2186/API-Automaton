@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objectrepository>
+    <page name="IndexPage">
+        <object name="signin_link">
+            <locatortype>id</locatortype>
+            <locatorvalue>_ctl0__ctl0_LoginLink</locatorvalue>
+        </object>
+    </page>
+    <page name="LoginPage">
+        <object name="username_input">
+            <locatortype>id</locatortype>
+            <locatorvalue>uid</locatorvalue>
+        </object>
+        <object name="password_input">
+            <locatortype>id</locatortype>
+            <locatorvalue>passw</locatorvalue>
+        </object>
+        <object name="login_btn">
+            <locatortype>name</locatortype>
+            <locatorvalue>btnSubmit</locatorvalue>
+        </object>
+        <object name="message_span">
+            <locatortype>id</locatortype>
+            <locatorvalue>_ctl0__ctl0_Content_Main_message</locatorvalue>
+        </object>
+    </page>
+</objectrepository>

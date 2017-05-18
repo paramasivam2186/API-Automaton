@@ -1,0 +1,356 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "count": {
+      "type": "integer"
+    },
+    "requestId": {
+      "type": "string"
+    },
+    "searchResults": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "productId": {
+            "type": "string"
+          },
+          "source": {
+            "type": "object",
+            "properties": {
+              "@context": {
+                "type": "object",
+                "properties": {
+                  "cnt": {
+                    "type": "string"
+                  },
+                  "bf": {
+                    "type": "string"
+                  },
+                  "schema": {
+                    "type": "string"
+                  },
+                  "csgIndexedDate": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "cnt",
+                  "bf",
+                  "schema",
+                  "csgIndexedDate"
+                ]
+              },
+              "@type": {
+                "type": "string"
+              },
+              "cnt:slug": {
+                "type": "string"
+              },
+              "schema:name": {
+                "type": "string"
+              },
+              "schema:description": {
+                "type": "object",
+                "properties": {
+                  "schema:txt": {
+                    "type": "string"
+                  },
+                  "schema:html": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "schema:txt",
+                  "schema:html"
+                ]
+              },
+              "schema:previewChapterUrl": {
+                "type": "string"
+              },
+              "schema:publisher": {
+                "type": "string"
+              },
+              "schema:brand": {
+                "type": "object",
+                "properties": {
+                  "@type": {
+                    "type": "string"
+                  },
+                  "schema:name": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "@type",
+                  "schema:name"
+                ]
+              },
+              "schema:keywords": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "schema:numberOfPages": {
+                "type": "string"
+              },
+              "schema:bookEdition": {
+                "type": "string"
+              },
+              "schema:bookFormat": {
+                "type": "string"
+              },
+              "schema:copyrightYear": {
+                "type": "string"
+              },
+              "schema:datePublished": {
+                "type": "string"
+              },
+              "cnt:productType": {
+                "type": "string"
+              },
+              "cnt:productModel": {
+                "type": "object",
+                "properties": {
+                  "cnt:name": {
+                    "type": "string"
+                  },
+                  "cnt:features": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "cnt:name",
+                  "cnt:features"
+                ]
+              },
+              "schema:sourceIsbn": {
+                "type": "object",
+                "properties": {
+                  "schema:isbn13": {
+                    "type": "string"
+                  },
+                  "schema:isbn10": {
+                    "type": "string"
+                  },
+                  "schema:region": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "schema:isbn13",
+                  "schema:isbn10",
+                  "schema:region"
+                ]
+              },
+              "schema:productStage": {
+                "type": "string"
+              },
+              "cnt:auxiliaryFields": {
+                "type": "object",
+                "properties": {
+                  "authors": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "familyName": {
+                          "type": "string"
+                        },
+                        "givenName": {
+                          "type": "string"
+                        },
+                        "biography": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "familyName",
+                        "givenName",
+                        "biography"
+                      ]
+                    }
+                  },
+                  "potentialAction": {
+                    "type": "object",
+                    "properties": {
+                      "previewAction": {
+                        "type": "object",
+                        "properties": {
+                          "target": {
+                            "type": "object",
+                            "properties": {
+                              "httpMethod": {
+                                "type": "string"
+                              },
+                              "contentType": {
+                                "type": "string"
+                              },
+                              "url": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "httpMethod",
+                              "contentType",
+                              "url"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "target"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "previewAction"
+                    ]
+                  },
+                  "disciplines": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "category": {
+                          "type": "string"
+                        },
+                        "disciplineCode": {
+                          "type": "string"
+                        },
+                        "secondaryDiscipline": {
+                          "type": "string"
+                        },
+                        "primaryDiscipline": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "category",
+                        "disciplineCode",
+                        "secondaryDiscipline",
+                        "primaryDiscipline"
+                      ]
+                    }
+                  },
+                  "productPlatform": {
+                    "type": "string"
+                  },
+                  "video": {
+                    "type": "object",
+                    "properties": {
+                      "embedUrl": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "embedUrl"
+                    ]
+                  }
+                },
+                "required": [
+                  "authors",
+                  "potentialAction",
+                  "disciplines",
+                  "productPlatform",
+                  "video"
+                ]
+              }
+            },
+            "required": [
+              "@context",
+              "@type",
+              "cnt:slug",
+              "schema:name",
+              "schema:description",
+              "schema:previewChapterUrl",
+              "schema:publisher",
+              "schema:brand",
+              "schema:keywords",
+              "schema:numberOfPages",
+              "schema:bookEdition",
+              "schema:bookFormat",
+              "schema:copyrightYear",
+              "schema:datePublished",
+              "cnt:productType",
+              "cnt:productModel",
+              "schema:sourceIsbn",
+              "schema:productStage",
+              "cnt:auxiliaryFields"
+            ]
+          },
+          "matchedFields": {
+            "type": "object",
+            "properties": {
+              "schema:brand.schema:url": {
+                "type": "string"
+              },
+              "schema:name": {
+                "type": "string"
+              },
+              "schema:brand.schema:name": {
+                "type": "string"
+              },
+              "cnt:auxiliaryFields.disciplines.secondaryDiscipline": {
+                "type": "string"
+              },
+              "cnt:auxiliaryFields.authors.biography": {
+                "type": "string"
+              },
+              "cnt:productModel.cnt:name": {
+                "type": "string"
+              },
+              "cnt:slug": {
+                "type": "string"
+              },
+              "schema:description.schema:html": {
+                "type": "string"
+              },
+              "schema:keywords": {
+                "type": "string"
+              },
+              "cnt:productModel.cnt:features": {
+                "type": "string"
+              },
+              "schema:description.schema:txt": {
+                "type": "string"
+              },
+              "cnt:auxiliaryFields.disciplines.primaryDiscipline": {
+                "type": "string"
+              },
+              "cnt:auxiliaryFields.productPlatform": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "schema:brand.schema:url",
+              "schema:name",
+              "schema:brand.schema:name",
+              "cnt:auxiliaryFields.disciplines.secondaryDiscipline",
+              "cnt:auxiliaryFields.authors.biography",
+              "cnt:productModel.cnt:name",
+              "cnt:slug",
+              "schema:description.schema:html",
+              "schema:keywords",
+              "cnt:productModel.cnt:features",
+              "schema:description.schema:txt",
+              "cnt:auxiliaryFields.disciplines.primaryDiscipline",
+              "cnt:auxiliaryFields.productPlatform"
+            ]
+          }
+        },
+        "required": [
+          "productId",
+          "source",
+          "matchedFields"
+        ]
+      }
+    }
+  },
+  "required": [
+    "count",
+    "requestId",
+    "searchResults"
+  ]
+}
